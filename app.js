@@ -23,20 +23,20 @@ function renderList(){
 
 
 document.body.querySelector(".fire_button").addEventListener("click", function(){
-    var firePower = 1;
+    var firePower = 3;
     list.push(firePower);
     renderList();
 })
 
 
 document.body.querySelector(".ice_button").addEventListener("click", function(){
-    var icePower = 5;
+    var icePower = 1;
     list.push(icePower);
     renderList();
 })
 
 document.body.querySelector(".poison_button").addEventListener("click", function(){
-    var poisonPower = 7;
+    var poisonPower = 4;
     list.push(poisonPower);
     renderList();
 })
